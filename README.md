@@ -1,14 +1,10 @@
 <div align="center">
 	<h1> ESEJKC </h1>
-    <h5>Embedded Software Engineer Job Knowledge Checklist</h5>
-    <h5>嵌入式软件工程师求职知识清单</h5>
+	<h3>Embedded Software Engineer Job Knowledge Checklist</h3>
+	<h3>嵌入式软件工程师求职知识清单</h3>
 </div>
 
-
-[toc]
-
 ## C / C++
-
 
 
 ## 数据结构与算法
