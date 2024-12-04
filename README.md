@@ -4,6 +4,26 @@
 	<h3>嵌入式软件工程师求职知识清单</h3>
 </div>
 
+```contributionGraph
+title: Contributions
+graphType: default
+dateRangeValue: 365
+dateRangeType: LATEST_DAYS
+startOfWeek: 1
+showCellRuleIndicators: true
+titleStyle:
+  textAlign: center
+  fontSize: 20px
+  fontWeight: normal
+dataSource:
+  type: PAGE
+  value: ""
+  dateField: {}
+fillTheScreen: true
+enableMainContainerShadow: false
+cellStyleRules: []
+
+```
 #### C/C++
 
 - [指针](./C_C++/指针.md)
