@@ -29,7 +29,7 @@
 - [消息队列](./Linux/消息队列.md)
 - [管道](./Linux/管道.md)
 - [共享内存](./Linux/共享内存.md)
-- [system-V IPC](./Linux/system-V_IPC信号量.md)
+- [system-V IPC](system-V%20IPC信号量.md)
 - [POSIX 信号量](./Linux/POSIX信号量.md)
 - [POSIX 互斥锁](./Linux/POSIX互斥锁.md)
 #### RTOS
@@ -55,7 +55,7 @@
 - [加减法电路](./模拟电路/加减法电路.md)
 - [滤波器电路](./模拟电路/滤波器电路.md)
 - [运算放大器](./模拟电路/运算放大器.md)
-- [AD/DA](./模拟电路/AD_DA.md)
+- [AD/DA](AD%20DA.md)
 - [电源](./模拟电路/电源.md)
 - [经验贴](./模拟电路/经验帖.md)
 #### 数字电路
