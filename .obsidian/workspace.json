@@ -15,7 +15,7 @@
               "state": {
                 "file": "README.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "README"
@@ -172,7 +172,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "49e78d733c080d12",
+  "active": "269211096a80fa57",
   "lastOpenFiles": [
     "README.md",
     "ESEJKC/README.md",
