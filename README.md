@@ -4,31 +4,12 @@
 	<h3>嵌入式软件工程师求职知识清单</h3>
 </div>
 
-```contributionGraph
-title: Contributions
-graphType: default
-dateRangeValue: 365
-dateRangeType: LATEST_DAYS
-startOfWeek: 1
-showCellRuleIndicators: true
-titleStyle:
-  textAlign: center
-  fontSize: 20px
-  fontWeight: normal
-dataSource:
-  type: PAGE
-  value: ""
-  dateField: {}
-fillTheScreen: true
-enableMainContainerShadow: false
-cellStyleRules: []
-
-```
 #### C/C++
 
-- [指针](./C_C++/指针.md)
-- [内存分区模型](./C_C++/内存分区模型.md)
-- [引用](./C_C++/引用.md)
+- [指针](./C%20C++/指针.md)
+- [内存分区模型](./C%20C++/内存分区模型.md)
+- [引用](./C%20C++/引用.md)
+- [函数进阶](./C%20C++/函数进阶.md)
 #### 数据结构与算法
 
 - [数组](./数据结构与算法/数组.md)
@@ -107,6 +88,3 @@ cellStyleRules: []
 - [IMU](./传感器/IMU.md)
 - [GPS](./传感器/GPS.md)
 #### 深度学习
-
-
-
