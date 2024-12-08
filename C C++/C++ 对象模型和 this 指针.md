@@ -50,7 +50,7 @@ C++通过提供特殊的对象指针，`this` 指针，解决上述问题，**`t
 - 当形参和成员变量同名时，可用 `this` 指针来区分
 - 在类的非静态成员函数中返回对象本身，可使用 `return *this`
 
-```cpp hl:5,10,20
+```cpp hl:5,10,20 fix:19
 class Person
 {
 	Person(int age)
