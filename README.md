@@ -1,4 +1,8 @@
+---
+sticker: ""
+---
 <div align="center">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/2023_Obsidian_logo.svg/800px-2023_Obsidian_logo.svg.png" style="width:50">
 	<h1> ESEJKC </h1>
 	<h3>Embedded Software Engineer Job Knowledge Checklist</h3>
 	<h3>嵌入式软件工程师求职知识清单</h3>
@@ -80,3 +84,5 @@
 - [IMU](传感器/IMU.md)
 - [GPS](传感器/GPS.md)
 #### 深度学习
+
+
