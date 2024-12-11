@@ -1,6 +1,3 @@
----
-update: 2024-12-12 00:43:39
----
 <div align="center">
 	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/2023_Obsidian_logo.svg/800px-2023_Obsidian_logo.svg.png" width="50">
 	<h1> ESEJKC </h1>
