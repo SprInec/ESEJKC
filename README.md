@@ -1,5 +1,6 @@
 ---
 sticker: ""
+update: 2024-12-11 20:33:29
 ---
 <div align="center">
 	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/2023_Obsidian_logo.svg/800px-2023_Obsidian_logo.svg.png" style="width:50">
