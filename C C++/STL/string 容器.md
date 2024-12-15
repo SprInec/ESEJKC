@@ -3,8 +3,9 @@ title: string 容器
 aliases: 
 author: SprInec
 date: 2024-12-14
-update: 2024-12-14 16:55:35
-reference: []
+update: 2024-12-15 19:27:42
+reference:
+  - 黑马程序员C++教程
 tags: cpp, stl, 泛型编程
 ---
 # string 容器
@@ -203,9 +204,139 @@ void test_func()
 
 比较方式：字符串比较是按照字符的 ASCII 码进行比较
 
-- = 返回 0
-- > 返回 1
-- < 返回 -1
+- `=` 返回 0
+- `>` 返回 1
+- `<` 返回 -1
 
 函数原型：
-- 
+- `{cpp icon}int compare(const string &s) const;` - 与字符串 `s` 比较
+- `{cpp icon}int compare(const char *s) const;`     - 与字符串 `s` 比较
+
+```cpp hl:10,14
+#include <iostream>
+#include <string>
+using namespace std;
+
+void test_func()
+{
+	string str1 = "abcdefg";
+	string str2 = "abcdefg";
+
+	if (str1.compare(str2) == 0)
+	{
+		cout << "equal" << endl;
+	}
+	else if ((str1.compare(str2) > 0)
+	{
+		cout << "str1 > str2" << endl;
+	}
+	else
+	{
+		cout << "str1 < str2" << endl;
+	}
+}
+```
+
+>[!Summary] 
+> 
+> 字符串对比主要是用于比较两个字符串是否相等，判断大小的意义并不是很大
+
+### 7. string 字符存取
+
+`string` 字单个字符存取方式有两种
+- `{cpp icon}char& operator[](int n);` - 通过 `[]` 方式取字符
+- `{cpp icon}char& at(int n);`               - 通过 `at` 方式获取字符
+
+```cpp hl:12,17,21,22 fix:10
+#include <iostream>
+#include <string>
+using namespace std;
+
+void test_func()
+{
+	string str = "hello";
+
+	/* 获取字符 */
+	for （int i = 0; i < str.size(); i++)
+	{
+		cout << str[i] << endl;
+	}
+
+	for （int i = 0; i < str.size(); i++)
+	{
+		cout << str.at(i) << endl;
+	}
+
+	/* 修改字符 */
+	str[0] = 'x';
+	str.at(1) = 'x';
+}
+```
+
+### 8. string 的插入和删除
+
+对 `string` 字符串进行插入和删除字符操作
+
+函数原型：
+- `{cpp icon}string& insert(int pos, const char *s);`        - 插入字符串
+- `{cpp icon}string& insert(int pos, const string &str);` - 插入字符串
+- `{cpp icon}string& insert(int pos, int n, char c);`        - 在指定位置插入 `n` 个字符 `c`
+- `{cpp icon}string& erase(int pos, int n = npos);`            - 删除从 `pos` 开始的 `n` 个字符串
+
+```cpp hl:9,12
+#include <iostream>
+#include <string>
+using namespace std;
+
+void test_func()
+{
+	string str = "hello";
+
+	str.insert(1, "xx");
+	cout << str << endl; // output: hxxello
+
+	str.erase(1, 3);
+	cout << str << endl; // output: hello
+}
+```
+
+>[!Note] 
+> 
+> 插入和删除的起始下标都是从 0 开始
+
+### 9. string 字串
+
+从字符串中获取想要的子串
+
+函数原型：
+- `{cpp icon}string substr(int pos = 0, int n = npos) const;` - 返回由 `pos` 开始的 `n` 个字符组成的字符串
+
+```cpp hl:9,18,20
+#include <iostream>
+#include <string>
+using namespace std;
+
+void test1_func()
+{
+	string str = "hello";
+
+	string sub_str = str.substr(1, 3);
+	cout << sub_str << endl; // output: ell	
+}
+
+/* 实用操作 */
+void test2_func()
+{
+	string email = "testemail@example.com"
+
+	int pos = email.find("@");
+
+	string user_name = email.substr(0, pos);
+	cout << user_name << endl; // output: testemail
+}
+```
+
+>[!Summary] 
+> 
+> 灵活的运用 `substr` 功能，可以在实际开发中获取有效信息
+
