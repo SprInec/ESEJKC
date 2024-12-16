@@ -10,7 +10,7 @@ tags: cpp, 泛型编程
 ---
 # vector 存放数据
 
-`vector` 是 STL 中最常用的容器，可以理解为数组
+[vector](./vector%20容器.md) 是 STL 中最常用的容器，可以理解为数组
 ### 1. vector 存放内置数据类型
 
 - 容器：`vector`
