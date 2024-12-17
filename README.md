@@ -67,6 +67,9 @@
 - [全加器](数字电路/全加器.md)
 - [时序电路](数字电路/时序电路.md)
 - [组合电路](数字电路/组合电路.md)
+#### PCB版图设计
+
+
 #### 通信协议
 - [I2C](I2C.md)
 - [SPI](SPI.md)
@@ -78,11 +81,20 @@
 - [IP](网络编程/IP.md)
 - [UDP](网络编程/UDP.md)
 - [TCP](网络编程/TCP.md)
-#### Qt/LVGL
+#### Qt
+- [Qt 环境配置](Qt%20环境配置.md)
+- [Qt 基本概念](Qt%20基本概念.md)
+
+#### LVGL
+
 
 #### 传感器
-- [IMU](传感器/IMU.md)
-- [GPS](传感器/GPS.md)
+- [IMU](IMU.md)
+- [GPS](GPS.md)
 #### 深度学习
+
+
+#### Git
+- [Git Tag](Git%20Tag.md)
 
 
